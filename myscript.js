@@ -27,10 +27,7 @@ function myFunction() {
 // var x = document.getElementById("demo");
 // x.innerHTML = "Browser inner window width: " + w + ", height: " + h + ".";
 
-function ab(){
-var a = document.getElementById("countries").value ="USD";
 
-alert(a);}
 var text = "";
 var i = 0;
 const as = 12;
@@ -42,7 +39,7 @@ Riyal = 42.64;
 Indian_Rupee = 2.12;
 
 function add() {
-  if (document.querySelector(`#opti`).value = true) {
+  if (document.querySelector(`#USD`).value = false) {
     if (document.querySelector(`#currency`).value > 1) {
       mulitply = document.querySelector(`#currency`).value * US_Dollar
       converted = mulitply.toFixed(2)
